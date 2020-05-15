@@ -84,12 +84,12 @@ frist, i gone throw all next websites using next page link and got the pattern o
 I have used exception block to tell the common errors. that, we will get while running the script and to get some suggestion to aviod errors.
 
 HOW TO RUN:
-step1) install all the reqiured libraries selenium, bs4, Pandas and Numpy.
-step2) run the  python web_scrawling_on_Yelp.py on your terminal.
-strp 3) in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be scrwled maximum 250 approx.
+step 1): install all the reqiured libraries selenium, bs4, Pandas and Numpy.
+step 2): run the  python web_scrawling_on_Yelp.py on your terminal.
+strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be scrwled maximum 250 approx.
 
 After running the script secsusfully it will store a Csv file in your folders.
 
 Note:
 Sometines this will make an arry length mis math problem beacuse of dynamic new pages. we need to re run the script till it wont give any error.
-aslo it prints some suggestion when problem occures with loading the page.
+Aslo it prints some suggestion when problem occures with loading the page.
