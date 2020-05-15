@@ -1,10 +1,11 @@
 # web-scraping-using-python-
-in this reposirory i have shown how to scrwl the Yelp Business dtaa using python.
+In this reposirory i have shown how to scrwl the Yelp Business dtaa using python.
 
 Yelp_details_scarwling.py script will scrap the data of name cattgory address and nomber of reviews from the Yelp and stores in csv file.
 
 This script uses Google chrome as default browser.
 
+################################################ start of code ################################################
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -67,6 +68,11 @@ METHODOLOGY:
 this script first open that websites in chrome using the url pattern specified in for loop.
 then getts the equired data and stores in the list.
 at the end all data is stored in a CSV formate using Pandas Library.
+
+It was bit confusing while understanding the path. but it was simple.
+frist, i gone throw all next websites using next page link and got the pattern of path and looped over all path till the specified number.
+
+I have used exception block to tell the common errors. that, we will get while running the script and to get some suggestion to aviod errors.
 
 HOW TO RUN:
 step1) install all the reqiured libraries selenium, bs4, Pandas and Numpy.
