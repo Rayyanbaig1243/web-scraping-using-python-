@@ -1,5 +1,5 @@
-# web-scraping-using-python-
-In this reposirory i have shown how to scrwl the Yelp Business dtaa using python.
+# web-Scrape-using-python-
+In this reposirory i have shown how to Scrape the Yelp Business dtaa using python.
 
 Yelp_details_scarwling.py script will scrap the data of name cattgory address and nomber of reviews from the Yelp and stores in csv file.
 
