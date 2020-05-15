@@ -5,8 +5,6 @@ Yelp_details_scarwling.py script will scrap the data of name cattgory address an
 
 This script uses Google chrome as default browser.
 
-##################### start of code ####################
-
 	from selenium import webdriver
 	from bs4 import BeautifulSoup
 	import pandas as pd
@@ -71,14 +69,9 @@ This script uses Google chrome as default browser.
 			print('3) run the script agin')
 			print('4) close all current chrome tabs')
 			pass
-	index=[]
-
-	for i in range(1,len(Name)+1):index.append(i)
-
+	index=[];for i in range(1,len(Name)+1):index.append(i)
 	df = pd.DataFrame({'index':index, 'Hotel Name':Name ,'Catogory':cattagory, 'number of reviews' :review,'address':address}) 
 	df.to_csv('new_hotels.csv', index=False, encoding='utf-8')
-
-##################  END  ###################
 
 METHODOLOGY:
 this script first open that websites in chrome using the url pattern specified in for loop.
