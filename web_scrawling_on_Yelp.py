@@ -5,17 +5,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 import numpy as np
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
-Name=[] 
-review=[]
-address=[]
-cattagory = []
-
-#https://www.yelp.com/search?find_desc=Small%20Businesses&find_loc=Newark%2C%20CA%2094560	
-#https://www.yelp.com/search?find_desc=Small%20Businesses&find_loc=Newark%2C%20CA%2094560&start=10
-#https://www.yelp.com/search?find_desc=Small%20Businesses&find_loc=Newark%2C%20CA%2094560&start=20
-
+Name=[] ; review=[]; address=[]; cattagory = []
 no_of_pages_toscrowl = int(input('Enter the no of pages need to be scrowled :  '))
-#no_of_pages_toscrowl=1 
+
 for i in range(10,(no_of_pages_toscrowl+1)*10,10):
 	try:
 		driver.get("https://www.yelp.com/search?find_desc=Small%20Businesses&find_loc=Newark%2C%20CA%2094560&start="+ str(i))
@@ -30,7 +22,6 @@ for i in range(10,(no_of_pages_toscrowl+1)*10,10):
 			add=a.find(attrs={'class':'lemon--span__373c0__3997G raw__373c0__3rcx7'})
 
 			catt=a.find(attrs={'class':'lemon--a__373c0__IEZFH link__373c0__1G70M link-color--inherit__373c0__3dzpk link-size--default__373c0__7tls6'})
-
 
 			if name !=None:
 				#print('hotel name is : ',name.text)
@@ -60,5 +51,5 @@ for i in range(1,len(Name)+1):index.append(i)
 
 
 df = pd.DataFrame({'index':index, 'Hotel Name':Name ,'Catogory':cattagory, 'number of reviews' :review,'address':address}) 
-df.to_csv('new_hotels.csv', index=False, encoding='utf-8')
+df.to_csv('new_business.csv', index=False, encoding='utf-8')
 
