@@ -6,6 +6,7 @@ Yelp_details_scarwling.py script will scrap the data of name cattgory address an
 This script uses Google chrome as default browser.
 
 ##################### start of code ####################
+
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import pandas as pd
