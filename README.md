@@ -86,7 +86,7 @@ I have used exception block to tell the common errors. that, we will get while r
 HOW TO RUN:
 step 1): install all the reqiured libraries selenium, bs4, Pandas and Numpy.
 step 2): run the  python web_scrawling_on_Yelp.py on your terminal.
-strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be scrwled maximum 250 approx.
+strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be Scrape maximum 250 approx.
 
 After running the script secsusfully it will store new_busines.csv file in your folders.
 
