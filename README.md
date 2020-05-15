@@ -71,7 +71,7 @@ This script uses Google chrome as default browser.
 			pass
 	index=[];for i in range(1,len(Name)+1):index.append(i)
 	df = pd.DataFrame({'index':index, 'Hotel Name':Name ,'Catogory':cattagory, 'number of reviews' :review,'address':address}) 
-	df.to_csv('new_hotels.csv', index=False, encoding='utf-8')
+	df.to_csv('new_business.csv', index=False, encoding='utf-8')
 
 METHODOLOGY:
 this script first open that websites in chrome using the url pattern specified in for loop.
@@ -88,7 +88,7 @@ step 1): install all the reqiured libraries selenium, bs4, Pandas and Numpy.
 step 2): run the  python web_scrawling_on_Yelp.py on your terminal.
 strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be scrwled maximum 250 approx.
 
-After running the script secsusfully it will store a Csv file in your folders.
+After running the script secsusfully it will store new_busines.csv file in your folders.
 
 Note:
 Sometines this will make an arry length mis math problem beacuse of dynamic new pages. we need to re run the script till it wont give any error.
