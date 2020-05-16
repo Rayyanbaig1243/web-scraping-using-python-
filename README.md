@@ -95,7 +95,7 @@ step 3): in terminal an messge was printed "Enter the no of pages need to be scr
 	After running the script successfuly it will store new_busines.csv file in your curent working directory. I have added the copy of new_business.csv file Scraped on the 4 webpages. 
 
 ## Note:
-Sometines this will make an arry length mis math problem beacuse of dynamic new pages. we need to re run the script till it wont get any error.
+Sometines this will make an array length mis match problem beacuse of dynamic new pages. we need to re-run the script till we won,t get any error.
 Aslo, it prints some suggestion when other problem occures with loading the page on web.
 
 ### Thank you for reading.
