@@ -83,10 +83,10 @@ frist, i gone through all next websites using next page link and got the pattern
 
 I have used exception block to tell the common errors. that, we will get while running the script and to get some suggestion to aviod errors.
 
-###pre requests Python 3
+### programming language: Python 3
 
 ## HOW TO RUN:
-step 1): install all the reqiured libraries. (they are, selenium, bs4, Pandas and Numpy.)
+step 1): install all the required libraries. (they are, selenium, bs4, Pandas and Numpy.)
 
 step 2): run the  'python web_scrawling_on_Yelp.py' script on your terminal.
 
