@@ -96,6 +96,6 @@ step 3): in terminal an messge was printed "Enter the no of pages need to be scr
 
 ## Note:
 Sometines this will make an array length mis match problem beacuse of dynamic new pages. we need to re-run the script till we won,t get any error.
-Aslo, it prints some suggestion when other problem occures with loading the page on web.
+Aslo, it prints some suggestion when other problem occures with loading the webpage.
 
 ### Thank you for reading.
