@@ -74,19 +74,19 @@ This script uses Google chrome as default browser.
 	df.to_csv('new_business.csv', index=False, encoding='utf-8')
 
 # METHODOLOGY:
-This script first open that websites in chrome using the url pattern specified in for loop.
-then getts the equired data and stores in the list.
-at the end all data is stored in a CSV formate using Pandas Library.
+This script first open that websites in chrome using the url pattern specified in the for loop.
+then gets the required data and stores in the list.
+at the end all the data of lists is stored in a CSV formate using Pandas Library.
 
 It was bit confusing while understanding the path. but it was simple.
-frist, i gone throw all next websites using next page link and got the pattern of path and looped over all path till the specified number.
+frist, i gone through all next websites using next page link and got the pattern of path and looped over all path till the specified number.
 
 I have used exception block to tell the common errors. that, we will get while running the script and to get some suggestion to aviod errors.
 
 ## HOW TO RUN:
-step 1): install all the reqiured libraries selenium, bs4, Pandas and Numpy.
-step 2): run the  python web_scrawling_on_Yelp.py on your terminal.
-strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be Scrape maximum 250 approx.
+step 1): install all the reqiured libraries. they are, selenium, bs4, Pandas and Numpy.
+step 2): run the  'python web_scrawling_on_Yelp.py' script on your terminal.
+strp 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be Scrape maximum 250 approx(based on the websites last page number).
 
 After running the script secsusfully it will store new_busines.csv file in your folders. I have added the copy of new_business.csv file Scraped on the 4 webpages. 
 
