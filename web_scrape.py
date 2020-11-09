@@ -54,6 +54,7 @@
 			print('3) run the script agin')
 			print('4) close all current chrome tabs')
 			pass
+							   
 	creating an index list contaions the numbers from 1 to len of the data
 	index=[];for i in range(1,len(Name)+1):index.append(i)
 	
