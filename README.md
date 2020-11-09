@@ -83,7 +83,7 @@ I have used exception block to tell the common errors. that, we will get while r
 ## HOW TO RUN:
 step 1): install all the required libraries. (they are, selenium, bs4, Pandas and Numpy.)
 
-step 2): run the  'python web_scrawling_on_Yelp.py' script on your terminal.
+step 2): run the  `web_scrape.py` script on your terminal.
 
 step 3): in terminal an messge was printed "Enter the no of pages need to be scrowled :". hear type the number pages to be Scraped.(maximum 250 approx, selected based on the websites last page number).
 
