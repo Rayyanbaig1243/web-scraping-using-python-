@@ -1,15 +1,12 @@
 # web-Scrape-using-python-
 In this reposirory i have shown how to Scrape the Yelp Business data using python.
-
 Yelp_details_scarwling.py script will scrap the data of name, cattgory, address and number of reviews from the Yelp website and stores in csv file.
-
 This script uses Google chrome as default browser.
 
 # METHODOLOGY:
 This script first open that websites in chrome using the url pattern specified in the for loop.
 then gets the required data and stores in the list.
 at the end all the data of lists is stored in a CSV formate using Pandas Library.
-
 It was bit confusing while understanding the path. but it was simple.
 frist, i gone through all next websites using next page link and got the pattern of path and looped over all path till the specified number.
 
